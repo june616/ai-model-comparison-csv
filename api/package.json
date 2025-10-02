@@ -1,0 +1,14 @@
+{
+	"name": "ai-model-comparison-api",
+	"version": "0.1.0",
+	"private": true,
+	"license": "MIT",
+	"scripts": {
+		"build": "echo \"No build step needed\"",
+		"postinstall": "node -e \"console.log('API dependencies installed')\""
+	},
+	"dependencies": {
+		"@azure/identity": "^4.1.0",
+		"@azure/storage-blob": "^12.18.0"
+	}
+}
